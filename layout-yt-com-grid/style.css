@@ -1,0 +1,72 @@
+.principal{
+    grid-area: principal;
+}
+
+.recomendados{
+    grid-area: recomendados;
+}
+
+.propaganda{
+    padding-top: 33px;
+}
+
+.lista-recomendados{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.container{
+    width: 900px;
+    height: 415px;
+    background-color: gray;
+    display: grid;
+    grid: 
+    "principal recomendados";
+}
+
+.video-principal{
+    padding-top: 33px;
+    padding-left: 35px;
+}
+
+.descricao-video-principal{
+    margin-top: 22px;
+    max-width: 538px;
+}
+
+.video-recomendado{
+    display: inline-flex;
+    gap: 5px;
+    padding: 10px;
+}
+
+.descricao-recomendado{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+.titulo{
+    font-weight: 700;
+    font-size: 18px;
+}
+.views{
+    font-weight: 300;
+    font-size: 14px;
+}
+.descricao{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.titulo-recomendados{
+    font-weight: 700;
+    font-size: 14px;
+}
+.informacoes-recomendado{
+    font-weight: 300;
+    font-size: 11px;
+}
+
